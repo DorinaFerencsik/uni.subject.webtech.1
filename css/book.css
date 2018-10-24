@@ -1,0 +1,91 @@
+img {
+    width: 20%;
+    height: 20%;
+    padding: 40px;
+}
+/* HEADER */
+.header {
+    display: flex;
+    padding: 30px 0;
+    background-color: rgb(34, 86, 155);
+}
+.header .header-option {
+    padding: 20px 60px;
+    background-color: #d7d7d7;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+.header .header-option a {
+    color: rgb(34, 86, 155);
+    text-weight: bold;
+}
+.header .header-option:hover {
+    background-color: #a5a5a5;
+}
+.header .header-option a:visited {
+    color: rgb(34, 86, 155);
+}
+/* CONTENT */
+.content {
+    display: flex;
+    min-height: 670px;
+}
+.content .side-ct {
+    background-image: linear-gradient(rgb(34, 86, 155),lightyellow);
+    width: 15%;
+}
+.content .content-ct {
+    width: 70%;
+    padding: 40px;
+    background-color: lightyellow;
+}
+.content .content-ct .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.content .content-ct .main-box {
+    display: flex;
+}
+.content .content-ct .main-box table {
+    padding: 40px;
+}
+.content .content-ct .main-box .sponsore {
+    padding: 40px;
+}
+
+.content .content-ct .text {
+
+}
+.content .content-ct .basic-inputs {
+    margin: 0 auto;
+}
+.content .content-ct .basic-inputs .input-title{
+    text-transform: full-width;
+}
+.content .content-ct .basic-inputs input {
+    width: 400px;
+    box-shadow: 6px 6px rgb(210, 210, 210);
+}
+.content .content-ct .basic-inputs .submit-button input{
+    background: rgb(34, 86, 155);
+    color: white;
+    height: 30px;
+    border-radius: 10px;
+}
+.content .content-ct .basic-inputs tr {
+    height: 60px;
+}
+/* FOOTER */
+.footer {
+    height: 80px;
+    padding-top: 40px;
+    text-align: center;
+    background: dimgray;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-weight: bold;
+}

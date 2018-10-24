@@ -4,7 +4,7 @@
 <head>
     <title>Title</title>
 
-    <link href="basic.css" rel="stylesheet" type="text/css">
+    <link href="css/book.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div class="header" >
@@ -13,18 +13,20 @@
     <div class="header-option"><a href="authorform.html">Add author</a></div>
 </div>
 <div class="content">
+    <div class="side-ct"></div>
+    <div class="content-ct">
     <form action="addBook" method="POST">
-        <table>
+        <table class="basic-inputs">
             <tr>
-                <td>Title</td>
+                <td class="input-title">Title</td>
                 <td><input type="text" name="title" required="required" autofocus="true"></td>
             </tr>
             <tr>
-                <td>Quantity</td>
+                <td class="input-title">Quantity</td>
                 <td><input type="number" name="quantity" required="required"> </td>
             </tr>
             <tr>
-                <td>genre</td>
+                <td class="input-title">Genre</td>
                 <td><select name="genre" required="required">
                     <option value="scifi">Sci-fi</option>
                     <option value="fantasy">Fantasy</option>
@@ -32,24 +34,28 @@
                 </select></td>
             </tr>
             <tr>
-                <td>Author</td>
+                <td class="input-title">Author</td>
                 <td><input type="date" name="author"/> </td>
             </tr>
             <tr>
-                <td>Available</td>
+                <td class="input-title">Available</td>
                 <td><input type="number" name="available"/></td>
             </tr>
             <tr>
-                <td>Publisher</td>
+                <td class="input-title">Publisher</td>
                 <td><input type="email" name="publisher"/></td>
             </tr>
             <tr>
-                <td><input type="submit" value="Add book"/></td>
+                <td class="submit-button"><input type="submit" value="Add book"/></td>
             </tr>
         </table>
     </form>
+    </div>
+    <div class="side-ct"></div>
 </div>
-
+<div class="footer">
+    TODO: contact info and so on
+</div>
 
 </body>
 </html>

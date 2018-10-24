@@ -4,7 +4,7 @@
 <head>
     <title>Title</title>
 
-    <link href="basic.css" rel="stylesheet" type="text/css">
+    <link href="css/author.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div class="header" >
@@ -13,7 +13,10 @@
     <div class="header-option"><a href="authorform.html">Add author</a></div>
 </div>
 <div class="content">
-    <form action="addAuthor" method="POST">
+    <div class="side-ct"></div>
+    <div class="content-ct">
+    <!--
+        <form action="addAuthor" method="POST">
         <table>
             <tr>
                 <td>Name</td>
@@ -36,8 +39,34 @@
             </tr>
         </table>
     </form>
+    -->
+        <form action="addAuthor" method="POST">
+
+            <div>
+                <div class="input-title">Name</div>
+                <div><input type="text" name="name" required="required" autofocus="true"></div>
+
+                <div class="input-title">Nationality</div>
+                <div><select name="nationality" required="required">
+                    <option value="hu">Hungary</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">United Kingdom</option>
+                    </select></div>
+
+                <div class="input-title">Birth date</div>
+                <div><input type="date" name="birthDate"/></div>
+
+                <div class="submit-button"><input type="submit" value="Add book"/></div>
+
+            </div>
+        </form>
+</div>
+    <div class="side-ct"></div>
 </div>
 
+<div class="footer">
+    TODO: contact info and so on
+</div>
 
 </body>
 </html>
